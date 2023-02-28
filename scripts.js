@@ -4,7 +4,7 @@ let textFunction =document.querySelector('[data-showmore]');
 let buttonState = 0;
 buttonFunction.addEventListener('click', function(){
     if (buttonState === 0) {
-        buttonFunction.style.marginBottom = 0;
+        buttonFunction.style.marginBottom = 1;
         textFunction.classList.remove('hidden');
         setTimeout(function(){
             textFunction.classList.add('shown');

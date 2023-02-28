@@ -23,7 +23,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size:60px;
-    color: #fabfb7;
+    color: var(--lightred);
 }
 
 .main__header--subtitle{
@@ -31,11 +31,10 @@ body {
     justify-content: center;
     align-items: center;
     font-size:40px;
-    color: #fabfb7;
+    color: var(--lightred);
 }
 .main__header--description{
     display: flex;
-    margin-bottom: 5rem;
     justify-content: center;
     align-items: center;
     font-weight: 900;
@@ -75,7 +74,7 @@ body {
     margin: 2rem;
 }
 .main__article1--listElement--Title{
-    color:#fabfb7 ;
+    color:var(--lightred) ;
     font-size: 1.3rem;
 }
     
@@ -89,7 +88,7 @@ body {
     display: flex;
     justify-content:flex-end;
     width: 100%;
-    border: 2px solid var(--lightred);
+    border: 2px solid #84b6f4;
     border-radius: 20px;
 }
 .asideContent__profilePhoto{
@@ -130,18 +129,13 @@ body {
 .button{
     display: flex;
     justify-content: center;
-    align-content: center;
-    margin-right: 15rem;
-    margin-left: 15rem;
-
+    margin-right: 12rem;
+    margin-left: 12rem;
+    margin-bottom: 1rem;
 }
 .main__article1--Title{
     color: #84b6f4;
     display: flex;
     justify-content: center;
     font-size: 40px;
-}
-.show__more{
-    display: flex;
-    justify-content: center;
 }
