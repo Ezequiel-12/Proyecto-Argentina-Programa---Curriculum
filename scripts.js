@@ -1,7 +1,9 @@
 let buttonFunction =document.querySelector('[data-button]');
 let textFunction =document.querySelector('[data-showmore]');
 
+        // show more button
 let buttonState = 0;
+
 buttonFunction.addEventListener('click', function(){
     if (buttonState === 0) {
         buttonFunction.style.marginBottom = 1;
